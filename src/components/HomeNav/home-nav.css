@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  user-select: none;
+  margin: 1.5em;
+  font-size: 2em;
+  color: #e2e2e2;
+  transition: transform 1s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.2);
+}
